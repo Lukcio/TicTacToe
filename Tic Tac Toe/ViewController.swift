@@ -113,6 +113,7 @@ class ViewController: UIViewController {
                     label.canTap = true
                 }
                 self.winnerName = ""
+                self.xTurn = true
             }
             alert.addAction(resetAction)
             present(alert, animated: true, completion: nil)
